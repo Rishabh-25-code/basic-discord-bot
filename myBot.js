@@ -35,7 +35,7 @@ client.on("message", msg => {
     if (msg.content === ':pratik') {
         msg.reply('error 404 not found');
     }
-    if (msg.content === 'I love this server' || 'This server is awesome' || 'Nice server' || 'I love this bot') {
+    if (msg.content === 'I love this server') {
         msg.react('❤️')
     }
 });
